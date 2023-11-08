@@ -1,7 +1,7 @@
 # pcd_augmentation
 Point Cloud Data (Scan) Augmentation</br>
 <p align="center">
-<img height="300" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test2.PNG"/>
+<img height="300" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test2.jpg"/>
 <img height="300" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test1.PNG"/>
 </p>
 
