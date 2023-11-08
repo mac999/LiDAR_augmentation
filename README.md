@@ -8,7 +8,7 @@ Point Cloud Data (Scan) Augmentation</br>
 0.1: initial veraasion
 
 # run
-python [options]</br>
+python pcd_augmentation.py[options]</br>
 </br>
 --input_folder: default="./input", help='the path to the input folder'</br>
 --output_folder: default="./output", help='the path to the output folder'</br>
