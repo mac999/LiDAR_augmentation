@@ -1,13 +1,20 @@
-# pcd_augmentation
+# pcd augmentation with features
 Point Cloud Data (Scan) Augmentation</br>
 <p align="center">
 <img height="250" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test0.JPG"/>
 <img height="250" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test2.JPG"/>
 <img height="250" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test1.PNG"/>
 </p>
+</br>
+PCD feature generation</br>
+<p align="center">
+<img height="250" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test3.JPG"/>
+<img height="250" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test4.JPG"/>
+</p>
 
 # version
 0.1: initial veraasion
+0.2: add PCD features generation source
 
 # run
 python pcd_augmentation.py[options]</br>
@@ -21,6 +28,11 @@ python pcd_augmentation.py[options]</br>
 --rgb_noising: default=0.5, help='the probability of performing RGB noising (default: 0.50)'</br>
 --rgb_light_effect: default=0.5, help='the probability of performing RGB light effect (default: 0.50)'</br>
 --aug_num: type=int, default=50, help='number of the augmentation of each class'</br>
+
+python pcd_feature_generation.py[options]</br>
+</br>
+--input: default="input.las", help='input LAS file'</br>
+--output: default="output.las", help='output LAS file'</br>
 
 # description
 Point Cloud Data (Scan) Augmentation for the purpose of improving diversity of scan dataset and saving labeing cost.
