@@ -1,4 +1,10 @@
-import os, numpy as np, argparse, traceback
+# name: pcd_augmentation
+# author: taewook kang (laputa99999@gmail.com)
+# date: 2023.09.20
+# description: perform data augmentation on a given dataset
+# version: 0.2
+#
+import sys, os, io, traceback, json, subprocess, argparse, glob, re, numpy as np
 import open3d as o3d
 
 def noising(data, prob):

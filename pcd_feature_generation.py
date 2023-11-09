@@ -1,3 +1,9 @@
+# name: pcd_augmentation
+# author: taewook kang (laputa99999@gmail.com)
+# date: 2023.09.20
+# description: perform data augmentation on a given dataset
+# version: 0.2
+#
 import sys, os, io, traceback, json, subprocess, argparse, glob, re, numpy as np, sklearn, matplotlib.pyplot as plt, open3d as o3d
 import laspy, copy, pandas as pd
 import trimesh
