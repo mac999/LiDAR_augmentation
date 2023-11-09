@@ -36,6 +36,8 @@ python pcd_feature_generation.py[options]</br>
 # description
 Point Cloud Data (Scan) Augmentation for the purpose of improving diversity of scan dataset and saving labeing cost.
 
+# license
+MIT license
 
 
 
