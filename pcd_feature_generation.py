@@ -56,11 +56,11 @@ def main():
     global data_dir
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input_pcd', default="sample.las", type=str, required=False)
+    parser.add_argument('--input', default="sample.las", type=str, required=False)
     parser.add_argument('--output', default="output.las", type=str, required=False)
     args = parser.parse_args()
     
-    compute_features(args.input_pcd, args.output)
+    compute_features(args.input, args.output)
 
 if __name__ == "__main__":
     try:
