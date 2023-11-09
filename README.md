@@ -8,7 +8,7 @@ Point Cloud Data (Scan) Augmentation</br>
 </br>
 PCD (only LAS) feature generation</br>
 <p align="center">
-<img height="250" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test3.JPG"/>
+<img height="200" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test3.JPG"/>
 </p>
 
 # version
