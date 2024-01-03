@@ -1,5 +1,5 @@
-# pcd augmentation with features
-Point Cloud Data (Scan) Augmentation</br>
+# LiDAR PCD augmentation with features
+LiDAR Point Cloud Data (Scan) Augmentation</br>
 <p align="center">
 <img height="200" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test0.JPG"/>
 <img height="200" src="https://github.com/mac999/pcd_augmentation/blob/main/doc/test2.JPG"/>
